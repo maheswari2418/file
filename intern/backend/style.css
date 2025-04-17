@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Set font for the body */
+    background-color: #f4f4f4; /* Background color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding */
+}
+
+.container {
+    max-width: 600px; /* Set max width for the container */
+    margin: auto; /* Center the container */
+    background: white; /* Background color for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1, h2 {
+    color: #333; /* Text color for headings */
+}
+
+.section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%; /* Full width for inputs */
+    padding: 8px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #28a745; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.status, .result {
+    margin-top: 20px; /* Space above status/result sections */
+    padding: 10px; /* Padding inside sections */
+    border: 1px solid #ccc; /* Border for sections */
+    border-radius: 4px /* Rounded corners for sections */
+    background-color: #e9ecef; /* Light background color */
+}
